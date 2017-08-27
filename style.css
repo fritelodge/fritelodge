@@ -109,5 +109,15 @@ table{
 		color: #08F760;
 	}
 	
+	.roach{
+		position: absolute;
+		top: 220%;
+		left: 15%;
+	}
 	
-	
+	.spider{
+		position: absolute;
+		top: 40%;
+		right: -40%;
+		width: 220%;
+	}
