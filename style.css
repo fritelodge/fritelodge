@@ -1,0 +1,123 @@
+
+
+.TestClass {
+	color: Black;
+	background-color: White;
+	text-align: left;
+}
+
+body{
+	/*background-image: url('fritebg.png');*/
+	width: 100%;	
+	background-color: black;
+}
+
+.centerimg{
+	text-align: center;
+	display: block;
+          margin-left: auto;
+		  margin-right: auto;
+}
+
+.dropbtn {
+    background-color: #08F710;
+    color: white;
+    padding: 25px;
+	width: 268px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+	left-margin: auto;
+	margin-right: auto;
+}
+
+.dropbtn: hover .dropbtn{
+	background-color: #01A865;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f2}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+	}
+
+
+.dropdown:hover .dropbtn {
+    background-color: #08F760;
+}
+
+.menu{
+	text-align: center;
+	width: 80%;
+
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	content-align:center;
+}
+
+table{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+		width: 90%;
+	}
+
+.fade{
+	display: block;
+	margin-left: auto;
+	opacity: .5;
+	index: 1;
+	width: 800px;
+}
+
+.infosec{
+	width: 70%;
+	margin: auto;
+	display: block;
+
+	}
+	
+	.footer{
+		bottom: 10%;
+		text-align: center;
+		color: #08F760;
+	}
+	
+	.roach{
+		position: absolute;
+		top: 220%;
+		left: 15%;
+	}
+	
+	.spider{
+		position: absolute;
+		top: 40%;
+		right: -40%;
+		width: 220%;
+	}
